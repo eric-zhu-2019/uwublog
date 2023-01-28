@@ -8,7 +8,10 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-theme = "hermit_zola"
+theme = "float"
+taxonomies = [
+    {name = "tags", paginate_by = 10},
+]
 
 [markdown]
 # Whether to do syntax highlighting
@@ -16,37 +19,9 @@ theme = "hermit_zola"
 highlight_code = true
 
 [extra]
-home_subtitle = "Some profound and catchy statement"
+main_section = "blog"
+copyright = ""
 
-footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-hermit_menu = [
-    { link = "/posts", name = "Posts" },
-    { link = "/about", name = "About" }
-]
-
-hermit_social = [
-    { name = "twitter", link = "https://twitter.com" },
-    { name = "github", link = "https://github.com" },
-    { name = "email", link = "mailto:uwu2023@uwu2023.com" }
-]
-
-
-
-[extra.highlightjs]
-enable = true
-clipboard = true
-theme = "vs2015"
-
-[extra.disqus]
-enable = false
-# Take this from your Disqus account
-shortname = "my-supa-dupa-blog"
-
-[extra.author]
-name = "UwU"
-email = "uwu2023@uwu2023.com"
-
-[extra.google_analytics]
-enable = false
-id = "UA-4XXXXXXX-X"
+web_fonts = "<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&display=swap'>"
+google_analytics = false
+# google_analytics_id = "UA-XXXXXX-X"
