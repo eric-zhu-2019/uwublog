@@ -1,5 +1,6 @@
 # The URL the site will be built for
-base_url = "http://192.168.88.36:1111" #"http://uwu2013.com"
+#base_url = "https://192.168.88.36:1111" #"http://uwu2013.com"
+base_url = "http://uwu2013.com"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -27,7 +28,7 @@ hermit_menu = [
 hermit_social = [
     { name = "twitter", link = "https://twitter.com" },
     { name = "github", link = "https://github.com" },
-    { name = "email", link = "mailto:author@domain.com" }
+    { name = "email", link = "mailto:uwu2023@uwu2023.com" }
 ]
 
 
